@@ -24,7 +24,7 @@ jobs:
         cache: 'npm'
 
     - name: npm install, build, and test
-      working-directory: ./project
+      working-directory: .
       run: |
           ls ./project/package-lock.json
           npm install
